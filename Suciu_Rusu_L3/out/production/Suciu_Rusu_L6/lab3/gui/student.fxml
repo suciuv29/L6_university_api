@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="441.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab3.gui.GuiController">
+   <children>
+      <Label layoutX="36.0" layoutY="29.0" text="Meniu student">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="cursuri" layoutX="34.0" layoutY="62.0" prefHeight="321.0" prefWidth="606.0" />
+      <Button layoutX="480.0" layoutY="395.0" mnemonicParsing="false" onMouseClicked="#inscriere" prefHeight="25.0" prefWidth="160.0" text="Inscriere" />
+      <Label layoutX="439.0" layoutY="21.0" text="Numar total de credite" />
+      <Label id="totalCredite" layoutX="582.0" layoutY="21.0" text="0" />
+   </children>
+</AnchorPane>
